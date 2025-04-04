@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content='Você é Capaz de Aprender Matemática! Muitos alunos acreditam que não nasceram para a matemática, que
+            simplesmente não têm "cabeça para isso". Mas aqui está a verdade:
+            ninguém nasce sabendo matemática.'
+    />
+    <meta name="keywords" content="Matemática, cleby, professor" />
+    <meta name="author" content="Memobelc" />
+    <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/assets/mindset.png" />
+    <meta name="author" content="Memobelc" />
+    <title>Memobelc - Aprendizado inteligente que evolui com você!</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss"></style>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: none;
+      }
+      body {
+        font-family: "Concert One", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        text-align: center;
+        background-image: url("./assets/fundo1.png");
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: auto;
+        padding: 20px;
+      }
+      .header-container {
+        background-image: url("./assets/header.png");
+        background-size: contain;
+        background-position: "center";
+        background-repeat: no-repeat;
+      }
+      .mobiles {
+        background-image: url("./assets/mindset.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="w-full p-0 m-0">
+      <div
+        class="header-container container flex flex-col md:flex-row items-center justify-center h-[200px] md:h-[500px]"
+      >
+        <h1 class="text-blue-600 text-[30px] font-bold md:text-[100px]">
+          Bem-vindos ao Hub de Sala de Aula do Professor Cleby
+        </h1>
+      </div>
+    </header>
+    <section class="py-12 px-6 md:px-12 lg:px-24 text-center">
+      <div class="container flex flex-col md:flex-row">
+        <div class="mobiles w-full h-50 md:h-100 md:w-[40%]"></div>
+        <div
+          class="w-full md:w-[60%] h-full flex flex-col justify-center items-center"
+        >
+          <h2
+            style="margin-bottom: 20px"
+            class="text-xl w-full font-bold text-blue-700"
+          >
+            Mentalidade: Você é Capaz de Aprender Matemática!
+          </h2>
+          <p
+            style="margin-bottom: 20px"
+            class="text-gray-700 max-w-[500px] text-[16px] md:text-lg mt-10"
+          >
+            Muitos alunos acreditam que não nasceram para a matemática, que
+            simplesmente não têm "cabeça para isso". Mas aqui está a verdade:
+            ninguém nasce sabendo matemática. Seu cérebro está sempre mudando e
+            se adaptando. A matemática não é um dom mágico – é uma habilidade
+            que qualquer um pode desenvolver com prática e paciência.
+          </p>
+          <div
+            style="margin-bottom: 20px"
+            class="bg-white shadow-lg p-6 rounded-lg mt-6"
+          >
+            <h3 class="text-xl text-blue-600 mb-4">Mude sua abordagem:</h3>
+            <ul
+              class="text-gray-700 text-[16px] md:text-lg text-left space-y-2"
+            >
+              <li>✅ "Ainda não aprendi, mas posso aprender."</li>
+              <li>✅ "Cada erro me deixa mais perto da resposta certa."</li>
+              <li>✅ "Se eu praticar, vou melhorar."</li>
+            </ul>
+          </div>
+          <p
+            style="margin-bottom: 20px"
+            class="text-gray-800 text-[16px] md:text-lg max-w-[500px] font-medium mt-10"
+          >
+            A matemática não é um bicho de sete cabeças. Com a mentalidade certa
+            e dedicação, você pode se surpreender com o que é capaz de
+            conquistar.
+          </p>
+          <p class="text-blue-700 text-xl font-semibold mt-4">
+            Vamos juntos nessa jornada! 🚀
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="">
+      <div class="">
+        <h2 class="text-3xl font-bold text-blue-700 text-center mb-8">
+          1º Bimestre
+        </h2>
+
+        <!-- Tabs -->
+        <div>
+          <ul
+            style="
+              display: flex;
+              justify-content: center;
+              margin-bottom: 1.5rem;
+              gap: 30px;
+            "
+            role="tablist"
+          >
+            <li>
+              <button
+                class="tab-button text-blue-700"
+                data-tab="atividades"
+                style="padding: 0.5rem 1rem; cursor: pointer"
+              >
+                Atividades
+              </button>
+            </li>
+            <li>
+              <button
+                class="tab-button text-gray"
+                data-tab="conteudos"
+                style="padding: 0.5rem 1rem; cursor: pointer"
+              >
+                Conteúdos
+              </button>
+            </li>
+            <li>
+              <button
+                class="tab-button text-gray"
+                data-tab="mapa"
+                style="padding: 0.5rem 1rem; cursor: pointer"
+              >
+                Mapa Mental
+              </button>
+            </li>
+          </ul>
+
+          <!-- Atividades Tab -->
+          <div class="tab-content" id="atividades">
+            <div style="gap: 3px" class="space-y-4">
+              <details class="">
+                <summary class="font-semibold cursor-pointer">
+                  Atividade 1
+                </summary>
+                <img
+                  src="./atvs/ATV1.jpg"
+                  alt="Atv 1"
+                  class="rounded-xl shadow w-full"
+                />
+              </details>
+              <details class="">
+                <summary class="font-semibold cursor-pointer">
+                  Atividade 2
+                </summary>
+                <img
+                  src="./atvs/ATV2.jpg"
+                  alt="Atv 2"
+                  class="rounded-xl shadow w-full"
+                />
+              </details>
+              <details class="p-4">
+                <summary class="font-semibold cursor-pointer">
+                  Atividade 3
+                </summary>
+                <img
+                  src="./atvs/ATV3.jpg"
+                  alt="Atv 3"
+                  class="rounded-xl shadow w-full"
+                />
+              </details>
+              <details class="p-4">
+                <summary class="font-semibold cursor-pointer">
+                  Atividade 4
+                </summary>
+                <img
+                  src="./atvs/ATV4.jpg"
+                  alt="Atv 4"
+                  class="rounded-xl shadow w-full"
+                />
+              </details>
+              <!-- <details class="p-4">
+                <summary class="font-semibold cursor-pointer">
+                  Atividade 5
+                </summary>
+                <p class="text-gray-700 mt-2">
+                  Exercício resolvido com explicação detalhada...
+                </p>
+              </details> -->
+            </div>
+          </div>
+
+          <!-- Conteúdos Tab -->
+          <div class="tab-content hidden" id="conteudos">
+            <ul class="list-disc list-inside p-4 text-gray-700">
+              <li>Operações Fundamentais</li>
+              <li>Potenciação</li>
+              <li>Radiciação</li>
+              <li>Fração</li>
+              <li>Porcentagem</li>
+              <li>Razão e proporção</li>
+            </ul>
+          </div>
+
+          <!-- Mapa Mental Tab -->
+          <div class="tab-content hidden" id="mapa">
+            <div class="relative overflow-hidden">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="./mapa_mental/mapa_mental-fracoes.png"
+                      alt="Mapa Mental 1"
+                      class="rounded-xl shadow w-full"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./mapa_mental/mapa_mental-como-calcular-porcentagem.jpg"
+                      alt="Mapa Mental 2"
+                      class="rounded-xl shadow w-full"
+                    />
+                  </div>
+                  <!-- Adicione mais slides conforme necessário -->
+                </div>
+                <!-- Navegação -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full h-[300px]"></section>
+
+    <!-- Scripts -->
+    <script>
+      // Tabs
+      const buttons = document.querySelectorAll(".tab-button");
+      const contents = document.querySelectorAll(".tab-content");
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          buttons.forEach((btn) =>
+            btn.classList.remove(
+              "border-blue-700",
+              "text-blue-700",
+              "font-semibold"
+            )
+          );
+          contents.forEach((content) => content.classList.add("hidden"));
+
+          button.classList.add(
+            "border-blue-700",
+            "text-blue-700",
+            "font-semibold"
+          );
+          document
+            .getElementById(button.dataset.tab)
+            .classList.remove("hidden");
+        });
+      });
+    </script>
+
+    <!-- SwiperJS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      new Swiper(".mySwiper", {
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
